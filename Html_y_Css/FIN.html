@@ -12,22 +12,27 @@
 <header>
 
     <a href="index.html"><button class="botoninicio">INICIO</button></a>
-    <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265"/>
+    <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265" alt="LogoVolkswagen"/>
     <h1 class="Tituloprincipal">TUNNING</h1>
 </header>
-<nav>Volkswagen GOLF</nav>
+<nav><h1>Volkswagen GOLF</h1></nav>
 <main>
 <section>
-    <h3>Su auto es:</h3>
-    <p>Color:</p>
-    <img src="imagenes/autoblanco.jpg" height="150" width="300"/>
-    <p>Llantas:</p>
-    <img src="imagenes/llantas1.jpg" height="150" width="150"/>
+    <h3 class="colorllantaauto ">Su auto es:</h3>
+    <p id="colorFin">Color:</p>
+    <img src="imagenes/autoblanco.jpg" height="150" width="300" alt="autofinal"/>
+    <p id="llantaFin">Llantas:</p>
+    <img src="imagenes/llantas1.jpg" height="150" width="150" alt="llantafinal"/>
 </section>
     </main>
+<canvas></canvas>
 </body>
 <footer>
-    <p>Agrega tu correo:<input tipe="text" name="mail" id="agregatucorreo" size="30" maxlength="100" placeholder="Ingresa tu mail"></p>
+    <p>
+        <label for="agregatucorreo">Agrega tu correo:</label>
+        <input type="text" name="mail" id="agregatucorreo" size="30" maxlength="100" placeholder="Ingresa tu mail">
+    </p>
+    <p> Recibirás un mail con la informacion de tu auto.</p>
     <a href="index.html"><button class="botoninicio">Empezar de Nuevo</button></a>
 </footer>
 </html>
