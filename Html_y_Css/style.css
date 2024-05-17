@@ -1,9 +1,142 @@
 body {
-background-color: gray
+    background-color: gray;
+    background-size: cover;
+    background-blend-mode: overlay;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+#fotoprincipal{
+    border-radius: 50px;
+}
+.botoninicio{
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 131);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.botoninicio:hover{
+    cursor:pointer;
+    background-color: rgba(14, 61, 103, 0.8);
+    color: #ffffff;
+}
+#Tituloprincipal{
+    text-align: center;
+    clear: right;
+    font-size: 70px;
+    text-shadow: 1px -2px #000083;
+}
+#LogoVolkswagen{
+    float: right;
 }
 header{
 
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(0, 0, 0), #ffffff);
 }
-.tituloprincipal{
-    color: blue;
+nav{
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.8);
+}
+aside{
+    text-align: center;
+}
+section{
+text-align: center;
+}
+.Colorindex{
+    background-color: rgba(14, 61, 103, 0.8);
+    color: white;
+    margin: 50px 50px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px;
+}
+.Colorindex:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+}
+.Llantasindex{
+    background-color: rgba(14, 61, 103, 0.8);
+    color: white;
+    margin: 50px 50px;
+    padding: 15px;
+    border-radius: 50px;
+    border: 2px;
+}
+.Llantasindex:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+}
+.botonfinalizar1{
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid rgba(14, 61, 103, 0.8);
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 100px;
+}.botonfinalizar{
+     padding: 10px;
+     border-radius: 50px;
+     border: 2px solid rgba(14, 61, 103, 0.8);
+     font-size: 15px;
+     margin-left: 40px;
+ }
+ .botonfinalizar:hover{
+     cursor:pointer;
+     background-color: rgba(14, 61, 103, 0.8);
+     color: #ffffff;
+ }
+ .botonfinalizar1:hover{
+     cursor:pointer;
+     background-color: rgba(14, 61, 103, 0.8);
+     color: #ffffff;
+ }
+ #Empezardenuevo{
+     padding: 10px;
+     border-radius: 50px;
+     border: 2px solid rgba(14, 61, 103, 0.8);
+     font-size: 15px;
+     margin-left: 40px;
+ }
+ #agregatucorreo{
+     font-size: 20px;
+ }
+.botoncolor{
+    background-color: rgba(14, 61, 103, 0.8);
+    color: white;
+    border-radius: 50px;
+    border: 2px;
+    padding: 10px;
+}
+.botoncolor:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+}
+.botonllanta{
+    background-color: rgba(14, 61, 103, 0.8);
+    color: white;
+    border-radius: 50px;
+    border: 2px;
+    padding: 10px;
+}
+.botonllanta:hover{
+    cursor:pointer;
+    background-color: white;
+    color:black;
+}
+#colorcolor{
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size:30px;
+}
+#llantasllantas{
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size:30px;
 }
