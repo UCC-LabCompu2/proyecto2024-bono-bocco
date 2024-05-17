@@ -21,13 +21,13 @@ body {
     background-color: rgba(14, 61, 103, 0.8);
     color: #ffffff;
 }
-#Tituloprincipal{
+.Tituloprincipal{
     text-align: center;
     clear: right;
     font-size: 70px;
     text-shadow: 1px -2px #000083;
 }
-#LogoVolkswagen{
+.LogoVolkswagen{
     float: right;
 }
 header{
@@ -46,7 +46,7 @@ aside{
 section{
 text-align: center;
 }
-.Colorindex{
+#Colorindex{
     background-color: rgba(14, 61, 103, 0.8);
     color: white;
     margin: 50px 50px;
@@ -54,12 +54,12 @@ text-align: center;
     border-radius: 50px;
     border: 2px;
 }
-.Colorindex:hover{
+#Colorindex:hover{
     cursor:pointer;
     background-color: white;
     color:black;
 }
-.Llantasindex{
+#Llantasindex{
     background-color: rgba(14, 61, 103, 0.8);
     color: white;
     margin: 50px 50px;
@@ -67,7 +67,7 @@ text-align: center;
     border-radius: 50px;
     border: 2px;
 }
-.Llantasindex:hover{
+#Llantasindex:hover{
     cursor:pointer;
     background-color: white;
     color:black;
@@ -96,40 +96,22 @@ text-align: center;
      background-color: rgba(14, 61, 103, 0.8);
      color: #ffffff;
  }
- #Empezardenuevo{
-     padding: 10px;
-     border-radius: 50px;
-     border: 2px solid rgba(14, 61, 103, 0.8);
-     font-size: 15px;
-     margin-left: 40px;
- }
  #agregatucorreo{
      font-size: 20px;
  }
-.botoncolor{
+.boton{
     background-color: rgba(14, 61, 103, 0.8);
     color: white;
     border-radius: 50px;
     border: 2px;
     padding: 10px;
 }
-.botoncolor:hover{
+.boton:hover{
     cursor:pointer;
     background-color: white;
     color:black;
 }
-.botonllanta{
-    background-color: rgba(14, 61, 103, 0.8);
-    color: white;
-    border-radius: 50px;
-    border: 2px;
-    padding: 10px;
-}
-.botonllanta:hover{
-    cursor:pointer;
-    background-color: white;
-    color:black;
-}
+
 #colorcolor{
     color: white;
     text-shadow: 1px 1px black;
