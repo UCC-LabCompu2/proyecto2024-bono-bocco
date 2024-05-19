@@ -5,10 +5,12 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: white;
 }
-#fotoprincipal{
+
+#fotoprincipal {
     border-radius: 50px;
 }
-.botoninicio{
+
+.botoninicio {
     padding: 10px;
     border-radius: 50px;
     border: 2px solid rgb(0, 0, 131);
@@ -16,12 +18,14 @@ body {
     margin-left: 10px;
     margin-top: 10px;
 }
-.botoninicio:hover{
-    cursor:pointer;
+
+.botoninicio:hover {
+    cursor: pointer;
     background-color: rgba(14, 61, 103, 0.8);
     color: #ffffff;
 }
-.Tituloprincipal{
+
+.Tituloprincipal {
     text-align: center;
     clear: right;
     font-size: 70px;
@@ -30,26 +34,31 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-.LogoVolkswagen{
+
+.LogoVolkswagen {
     float: right;
 }
-header{
 
+header {
     border-radius: 15px;
     background: linear-gradient(to right, rgb(0, 0, 0), #ffffff);
 }
-nav h1{
+
+h1 {
     font-size: 30px;
     margin-bottom: 50px;
     text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.8);
 }
-aside{
+
+aside {
     text-align: center;
 }
-section{
-text-align: center;
+
+section {
+    text-align: center;
 }
-#Colorindex{
+
+#Colorindex {
     background-color: rgba(14, 61, 103, 0.8);
     color: white;
     margin: 50px 50px;
@@ -58,12 +67,14 @@ text-align: center;
     border: 2px;
     box-shadow: 3px 3px 3px;
 }
-#Colorindex:hover{
-    cursor:pointer;
+
+#Colorindex:hover {
+    cursor: pointer;
     background-color: white;
-    color:black;
+    color: black;
 }
-#Llantasindex{
+
+#Llantasindex {
     background-color: rgba(14, 61, 103, 0.8);
     color: white;
     margin: 50px 50px;
@@ -72,39 +83,47 @@ text-align: center;
     border: 2px;
     box-shadow: 3px 3px 3px;
 }
-#Llantasindex:hover{
-    cursor:pointer;
+
+#Llantasindex:hover {
+    cursor: pointer;
     background-color: white;
-    color:black;
+    color: black;
 }
-.botonfinalizar1{
+
+.botonfinalizar1 {
     padding: 10px;
     border-radius: 50px;
     border: 2px solid rgba(14, 61, 103, 0.8);
     font-size: 15px;
     margin-left: 40px;
     margin-top: 100px;
-}.botonfinalizar{
-     padding: 10px;
-     border-radius: 50px;
-     border: 2px solid rgba(14, 61, 103, 0.8);
-     font-size: 15px;
-     margin-left: 40px;
- }
- .botonfinalizar:hover{
-     cursor:pointer;
-     background-color: rgba(14, 61, 103, 0.8);
-     color: #ffffff;
- }
- .botonfinalizar1:hover{
-     cursor:pointer;
-     background-color: rgba(14, 61, 103, 0.8);
-     color: #ffffff;
- }
- #agregatucorreo{
-     font-size: 20px;
- }
-.boton{
+}
+
+.botonfinalizar {
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid rgba(14, 61, 103, 0.8);
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.botonfinalizar:hover {
+    cursor: pointer;
+    background-color: rgba(14, 61, 103, 0.8);
+    color: #ffffff;
+}
+
+.botonfinalizar1:hover {
+    cursor: pointer;
+    background-color: rgba(14, 61, 103, 0.8);
+    color: #ffffff;
+}
+
+#agregatucorreo {
+    font-size: 20px;
+}
+
+.boton {
     background-color: rgba(14, 61, 103, 0.8);
     color: white;
     border-radius: 50px;
@@ -112,27 +131,31 @@ text-align: center;
     padding: 10px;
     box-shadow: 3px 3px 3px;
 }
-.boton:hover{
-    cursor:pointer;
+
+.boton:hover {
+    cursor: pointer;
     background-color: white;
-    color:black;
+    color: black;
 }
 
-.colorllantaauto{
+.colorllantaauto {
     color: white;
     text-shadow: 1px 1px black;
-    font-size:30px;
+    font-size: 30px;
 }
-#colorFin{
+
+#colorFin {
     color: white;
     text-shadow: 1px 1px black;
-    font-size:30px;
+    font-size: 30px;
 }
-#llantaFin{
+
+#llantaFin {
     color: white;
     text-shadow: 1px 1px black;
-    font-size:30px;
+    font-size: 30px;
 }
-.textocorreo{
+
+.textocorreo {
     font-size: 25px;
 }
