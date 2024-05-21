@@ -1,4 +1,10 @@
 # TUNNING
+[Autores](#autores)
+
+[Descripcion](#descripción)
+
+[Tecnologias usadas](#tecnologias-usadas)
+
 ## Autores
 * **Bono Nicolas**
 * **Bocco Matias**
