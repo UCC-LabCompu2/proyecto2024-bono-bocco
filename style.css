@@ -15,7 +15,7 @@ body {
     border-radius: 50px;
     border: 2px solid rgb(0, 0, 131);
     background-color: white;
-    color:black;
+    color: black;
     font-size: 15px;
     margin-top: 10px;
     margin-left: 40px;
@@ -99,7 +99,7 @@ section {
     border-radius: 50px;
     border: 2px solid rgba(14, 61, 103, 0.8);
     background-color: white;
-    color:black;
+    color: black;
     font-size: 15px;
     margin-left: 40px;
     margin-top: 100px;
@@ -113,7 +113,7 @@ section {
     border-radius: 50px;
     border: 2px solid rgba(14, 61, 103, 0.8);
     background-color: white;
-    color:black;
+    color: black;
     font-size: 15px;
     margin-left: 40px;
     display: inline-block;
