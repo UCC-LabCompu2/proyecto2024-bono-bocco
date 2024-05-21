@@ -70,6 +70,8 @@ section {
     border-radius: 50px;
     border: 2px;
     box-shadow: 3px 3px 3px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 #Colorindex:hover {
@@ -86,6 +88,8 @@ section {
     border-radius: 50px;
     border: 2px;
     box-shadow: 3px 3px 3px;
+    display: inline-block;
+    text-decoration: none;
 }
 
 #Llantasindex:hover {
