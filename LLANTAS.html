@@ -11,30 +11,33 @@
     <meta content="web del taller del tuneo" name="descripcion">
     <meta content="personalizar,auto" name="palabras claves">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="Funciones.js"></script>
     <link rel="shortcut icon" href="imagenes/Volkswagen-Logo.png" type="image/x-icon">
 </head>
-<body>
+<body onload="onloadLlantas()">
 <header>
     <a class="botoninicio" href="index.html">INICIO</a>
     <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265" alt="LogoVolkswagen"/>
     <h1 class="Tituloprincipal">TUNNING</h1>
 </header>
 <h1>Volkswagen GOLF</h1>
+<input id="ValorLlanta" value="" style="visibility:hidden"></input>
+<input id="ValorColor" value="" style="visibility:hidden"></input>
 <main>
     <section>
         <h3 class="colorllantaauto">LLANTAS:</h3>
-        <button class="boton">CLASIC</button>
-        <img src="imagenes/llantas1.jpg" height="150" width="150" alt="llantas 1"/>
-        <button class="boton">DEPORTIVA</button>
-        <img src="imagenes/llantas2.jpg" height="150" width="150" alt="llantas 2"/>
-        <button class="boton">ROJAS</button>
-        <img src="imagenes/Llantas3.jpg" height="150" width="150" alt="llantas 3"/>
-        <button class="boton">NEGRO</button>
-        <img src="imagenes/Llantas4.jpg" height="150" width="150" alt="llantas 4"/>
+        <button class="boton" onclick="setearLlanta('1')">CLASIC</button>
+        <img src="imagenes/llantas1.jpg" height="200" width="200" alt="llantas 1"/>
+        <button class="boton" onclick="setearLlanta('2')">DEPORTIVA</button>
+        <img src="imagenes/llantas2.jpg" height="220" width="220" alt="llantas 2"/>
+        <button class="boton" onclick="setearLlanta('3')">ROJAS</button>
+        <img src="imagenes/Llantas3.jpg" height="180" width="180" alt="llantas 3"/>
+        <button class="boton" onclick="setearLlanta('4')">NEGRO</button>
+        <img src="imagenes/Llantas4.jpg" height="180" width="180" alt="llantas 4"/>
     </section>
 </main>
-<footer>
-    <a class="botonfinalizar1" href="FIN.html">Continuar</a>
-</footer>
 </body>
+<footer>
+    <a class="botonfinalizar1" onclick="llamarFinal()">Continuar</a>
+</footer>
 </html>

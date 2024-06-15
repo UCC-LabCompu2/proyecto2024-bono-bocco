@@ -11,29 +11,33 @@
     <meta content="web del taller del tuneo" name="descripcion">
     <meta content="personalizar,auto" name="palabras claves">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="Funciones.js"></script>
     <link rel="shortcut icon" href="imagenes/Volkswagen-Logo.png" type="image/x-icon">
 </head>
-<body>
+<body onload="onloadColor()">
 <header>
     <a class="botoninicio" href="index.html">INICIO</a>
-    <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265" alt="LogoVolkswagen">
+    <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265" alt="LogoVolkswagen"/>
     <h1 class="Tituloprincipal">TUNNING</h1>
 </header>
 <h1>Volkswagen GOLF</h1>
+<input id="ValorColor" value="" style="visibility:hidden"></input>
+<input id="ValorLlanta" value="" style="visibility:hidden"></input>
 <main>
     <section>
+
         <h3 class="colorllantaauto">COLOR:</h3>
-        <button class="boton">BLANCO</button>
-        <img src="imagenes/autoblanco.jpg" height="150" width="300" alt="GOLF Blanco">
-        <button class="boton">NEGRO</button>
-        <img src="imagenes/autonegro.png" height="150" width="300" alt="GOLF Negro">
-        <button class="boton">ROJO</button>
-        <img src="imagenes/autorojo.jpg" height="150" width="300" alt="GOLF Rojo">
-        <button class="boton">AZUL</button>
-        <img src="imagenes/autoazul.jpg" height="150" width="300" alt="GOLF Azul"></section>
+        <button class="boton" onclick="setearColor('1')">BLANCO</button>
+        <img src="imagenes/autoblancoprecio.jpg" height="150" width="300" alt="GOLF Blanco"/>
+        <button class="boton" onclick="setearColor('2')">NEGRO</button>
+        <img src="imagenes/autonegro.png" height="150" width="300" alt="GOLF Negro"/>
+        <button class="boton" onclick="setearColor('3')">ROJO</button>
+        <img src="imagenes/autorojo.jpg" height="150" width="300" alt="GOLF Rojo"/>
+        <button class="boton" onclick="setearColor('4')">AZUL</button>
+        <img src="imagenes/autoazul.jpg" height="150" width="300" alt="GOLF Azul"/></section>
 </main>
-<footer>
-    <a class="botonfinalizar1" href="FIN.html">Continuar</a>
-</footer>
 </body>
+<footer>
+    <a class="botonfinalizar1" onclick="llamarFinal()">Continuar</a>
+</footer>
 </html>

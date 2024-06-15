@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5632fdbe-a718-49c0-9a4b-4d689ae3334d" name="Changes" comment="Font">
+      <change afterPath="$PROJECT_DIR$/Funciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COLOR.html" beforeDir="false" afterPath="$PROJECT_DIR$/COLOR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FIN.html" beforeDir="false" afterPath="$PROJECT_DIR$/FIN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLANTAS.html" beforeDir="false" afterPath="$PROJECT_DIR$/LLANTAS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/Llantas3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/Llantas3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/Llantas4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/Llantas4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/autoazul.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/autoazul.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/autonegro.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/autonegro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/autorojo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/autorojo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/llantas1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/llantas1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenes/llantas2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/llantas2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <list id="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" name="Changes by bonon" comment="">
+      <change beforePath="$PROJECT_DIR$/COLOR.html" beforeDir="false" afterPath="$PROJECT_DIR$/COLOR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FIN.html" beforeDir="false" afterPath="$PROJECT_DIR$/FIN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LLANTAS.html" beforeDir="false" afterPath="$PROJECT_DIR$/LLANTAS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;matiasbocco&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/UCC-LabCompu2/proyecto2024-bono-bocco.git&quot;,
+    &quot;accountId&quot;: &quot;3fe78263-bfec-4827-bcb5-6441292c0d6e&quot;
+  }
+}</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/COLOR.html">
+      <ranges>
+        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="15" end1="16" start2="16" end2="17" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="22" end1="22" start2="23" end2="25" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="24" end1="24" start2="27" end2="28" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="25" end1="28" start2="29" end2="32" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="29" end1="30" start2="33" end2="34" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="31" end1="32" start2="35" end2="36" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="36" end1="37" start2="40" end2="41" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/index.html">
+      <ranges>
+        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="15" end1="16" start2="16" end2="20" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="21" end1="22" start2="25" end2="26" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="26" end1="28" start2="30" end2="32" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="31" end1="32" start2="35" end2="36" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/LLANTAS.html">
+      <ranges>
+        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="15" end1="16" start2="16" end2="17" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="22" end1="22" start2="23" end2="25" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="25" end1="33" start2="28" end2="36" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="37" end1="38" start2="40" end2="41" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/FIN.html">
+      <ranges>
+        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="15" end1="16" start2="16" end2="17" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="26" end1="27" start2="27" end2="29" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="28" end1="29" start2="30" end2="33" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="36" end1="37" start2="40" end2="41" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2gbMiKyHYuJ30CgURGpH7p8JqJp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.COLOR.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.LLANTAS.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mbocco/WebstormProjects/proyecto2024-bono-bocco&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mbocco\WebstormProjects\proyecto2024-bono-bocco" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5632fdbe-a718-49c0-9a4b-4d689ae3334d" name="Changes" comment="" />
+      <created>1715961949273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715961949273</updated>
+      <workItem from="1715961950421" duration="21852000" />
+      <workItem from="1716063459121" duration="2202000" />
+      <workItem from="1716327484222" duration="27000" />
+      <workItem from="1716327522963" duration="1218000" />
+      <workItem from="1716329363969" duration="1932000" />
+      <workItem from="1717586534572" duration="297000" />
+      <workItem from="1718474075143" duration="10031000" />
+    </task>
+    <task id="LOCAL-00001" summary="Font">
+      <option name="closed" value="true" />
+      <created>1716063759930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716063759930</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Font">
+      <option name="closed" value="true" />
+      <created>1716064450215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716064450215</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Font">
+      <option name="closed" value="true" />
+      <created>1716064838056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716064838056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Font">
+      <option name="closed" value="true" />
+      <created>1716064987307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716064987307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Font" />
+    <option name="LAST_COMMIT_MESSAGE" value="Font" />
+  </component>
+</project>

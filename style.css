@@ -73,7 +73,6 @@ section {
     display: inline-block;
     text-decoration: none;
 }
-
 #Colorindex:hover {
     cursor: pointer;
     background-color: white;

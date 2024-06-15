@@ -11,25 +11,29 @@
     <meta content="web del taller del tuneo" name="descripcion">
     <meta content="personalizar,auto" name="palabras claves">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="Funciones.js"></script>
     <link rel="shortcut icon" href="imagenes/Volkswagen-Logo.png" type="image/x-icon">
 </head>
-<body>
+<body onload="onloadInicio()">
+<input id="ValorLlanta" value="" style="visibility:hidden"></input>
+<input id="ValorColor" value="" style="visibility:hidden"></input>
+
 <header>
-    <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265" alt="LogoVolkswagen">
+    <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265" alt="LogoVolkswagen"/>
     <a class="botoninicio">INICIO</a>
     <h1 class="Tituloprincipal">TUNNING</h1>
 </header>
 <h1>Volkswagen GOLF</h1>
 <main>
     <aside>
-        <img id="fotoprincipal" src="imagenes/autoblanco.jpg" height="250" width="460" alt="Volkswagen Golf"></aside>
+        <img id="fotoprincipal" src="imagenes/autoblanco.jpg" height="250" width="460" alt="Volkswagen Golf"/></aside>
     <section>
-        <a id="Colorindex" href="COLOR.html">COLOR</a>
-        <a id="Llantasindex" href="LLANTAS.html">LLANTAS</a>
+        <a id="Colorindex" onclick="llamarColor()">COLOR</a>
+        <a id="Llantasindex" onclick="llamarLlanta()">LLANTAS</a>
     </section>
 </main>
 <footer>
-    <a class="botonfinalizar" href="FIN.html">Continuar</a>
+    <a class="botonfinalizar" onclick="llamarFinal()">Continuar</a>
 </footer>
 </body>
 </html>
