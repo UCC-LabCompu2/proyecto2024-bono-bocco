@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5632fdbe-a718-49c0-9a4b-4d689ae3334d" name="Changes" comment="Font">
-      <change afterPath="$PROJECT_DIR$/Funciones.js" afterDir="false" />
+    <list default="true" id="5632fdbe-a718-49c0-9a4b-4d689ae3334d" name="Changes" comment="Realizamos el Java Script">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/COLOR.html" beforeDir="false" afterPath="$PROJECT_DIR$/COLOR.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FIN.html" beforeDir="false" afterPath="$PROJECT_DIR$/FIN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Funciones.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LLANTAS.html" beforeDir="false" afterPath="$PROJECT_DIR$/LLANTAS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/Llantas3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/Llantas3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/Llantas4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/Llantas4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/autoazul.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/autoazul.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/autonegro.png" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/autonegro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/autorojo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/autorojo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/llantas1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/llantas1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagenes/llantas2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/imagenes/llantas2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" name="Changes by bonon" comment="">
-      <change beforePath="$PROJECT_DIR$/COLOR.html" beforeDir="false" afterPath="$PROJECT_DIR$/COLOR.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FIN.html" beforeDir="false" afterPath="$PROJECT_DIR$/FIN.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LLANTAS.html" beforeDir="false" afterPath="$PROJECT_DIR$/LLANTAS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funciones.js" beforeDir="false" afterPath="$PROJECT_DIR$/Funciones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +32,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -53,43 +47,26 @@
   }
 }</component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/COLOR.html">
+    <file path="$PROJECT_DIR$/Funciones.js">
       <ranges>
-        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-        <range start1="15" end1="16" start2="16" end2="17" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="22" end1="22" start2="23" end2="25" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="24" end1="24" start2="27" end2="28" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-        <range start1="25" end1="28" start2="29" end2="32" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="29" end1="30" start2="33" end2="34" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="31" end1="32" start2="35" end2="36" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="36" end1="37" start2="40" end2="41" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/index.html">
-      <ranges>
-        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-        <range start1="15" end1="16" start2="16" end2="20" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="21" end1="22" start2="25" end2="26" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="26" end1="28" start2="30" end2="32" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="31" end1="32" start2="35" end2="36" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/LLANTAS.html">
-      <ranges>
-        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-        <range start1="15" end1="16" start2="16" end2="17" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="22" end1="22" start2="23" end2="25" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="25" end1="33" start2="28" end2="36" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="37" end1="38" start2="40" end2="41" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="45" end1="46" start2="45" end2="45" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="48" end1="48" start2="47" end2="49" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="49" end1="49" start2="50" end2="80" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="62" end1="62" start2="93" end2="94" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="73" end1="73" start2="105" end2="106" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="86" end1="86" start2="119" end2="120" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="99" end1="99" start2="133" end2="134" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="112" end1="112" start2="147" end2="148" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
       </ranges>
     </file>
     <file path="$PROJECT_DIR$/FIN.html">
       <ranges>
-        <range start1="13" end1="13" start2="13" end2="14" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-        <range start1="15" end1="16" start2="16" end2="17" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
-        <range start1="26" end1="27" start2="27" end2="29" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-        <range start1="28" end1="29" start2="30" end2="33" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
-        <range start1="36" end1="37" start2="40" end2="41" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="14" end1="15" start2="14" end2="16" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="16" end1="17" start2="17" end2="18" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="32" end1="33" start2="33" end2="33" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
+        <range start1="35" end1="36" start2="35" end2="36" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="40" end1="41" start2="40" end2="41" changelist="5632fdbe-a718-49c0-9a4b-4d689ae3334d" />
+        <range start1="42" end1="43" start2="42" end2="42" changelist="472c83a0-7ce8-4f6f-8d86-55077dfecd5e" />
       </ranges>
     </file>
   </component>
@@ -104,22 +81,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.COLOR.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.LLANTAS.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mbocco/WebstormProjects/proyecto2024-bono-bocco&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.COLOR.html.executor": "Run",
+    "JavaScript Debug.FIN.html.executor": "Run",
+    "JavaScript Debug.LLANTAS.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Mbocco/WebstormProjects/proyecto2024-bono-bocco",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mbocco\WebstormProjects\proyecto2024-bono-bocco" />
@@ -146,7 +124,7 @@
       <workItem from="1716327522963" duration="1218000" />
       <workItem from="1716329363969" duration="1932000" />
       <workItem from="1717586534572" duration="297000" />
-      <workItem from="1718474075143" duration="10031000" />
+      <workItem from="1718474075143" duration="12983000" />
     </task>
     <task id="LOCAL-00001" summary="Font">
       <option name="closed" value="true" />
@@ -180,14 +158,34 @@
       <option name="project" value="LOCAL" />
       <updated>1716064987307</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Realizamos el Java Script">
+      <option name="closed" value="true" />
+      <created>1718484448125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718484448125</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Font" />
-    <option name="LAST_COMMIT_MESSAGE" value="Font" />
+    <MESSAGE value="Realizamos el Java Script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizamos el Java Script" />
   </component>
 </project>

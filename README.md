@@ -1,9 +1,9 @@
 # TUNNING
 [Autores](#autores)
 
-[Descripcion](#descripción)
+[Descripción](#descripción)
 
-[Tecnologias usadas](#tecnologias-usadas)
+[Tecnologías usadas](#tecnologias-usadas)
 
 ## Autores
 * **Bono Nicolas**
@@ -18,7 +18,7 @@ Proyecto 2024: página web para modificar tu auto
 | 2318599@ucc.edu.ar | Nicolas Bono |
 | 2308558@ucc.edu.ar | Matias Bocco |
 
-### Tecnologias usadas:
+### Tecnologías usadas:
 * HTML5
 * CSS3
 

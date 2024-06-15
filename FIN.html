@@ -12,9 +12,10 @@
     <meta content="personalizar,auto" name="palabras claves">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="Funciones.js"></script>
-    <link rel="shortcut icon" href="imagenes/Volkswagen-Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagenes/Volkswagen-Logo-favicon.png" type="image/x-icon" sizes="16x16"
+          href="/favicon-16x16.png">
 </head>
-<body onload="onloadFinal()" ;>
+<body onload="onloadFinal()">
 <header>
     <a class="botoninicio" href="index.html">INICIO</a>
     <img class="LogoVolkswagen" src="imagenes/Volkswagen-Logo.png" height="145" width="265" alt="LogoVolkswagen"/>
@@ -30,17 +31,15 @@
         <p id="llantaFin">Llantas:</p>
         <img src="imagenes/llantas1.jpg" height="150" width="150" alt="llantafinal" id="llantafinal"/>
         <p id="preciollanta">valor=$0</p>
-        <p id="preciototal">El valor total es $0</p>
     </section>
 </main>
-<canvas id="canvasFin"></canvas>
+<canvas id="myCanvas" width="800" height="200"></canvas>
 </body>
 <footer>
     <p>
         <label for="agregatucorreo" class="textocorreo">Agrega tu correo:</label>
-        <input type="text" name="mail" id="agregatucorreo" size="30" maxlength="100" placeholder="Ingresa tu mail" >
+        <input type="text" name="mail" id="agregatucorreo" size="30" maxlength="100" placeholder="Ingresa tu mail">
     </p>
-    <p class="textocorreo"> Recibirás un mail con la informacion de tu auto.</p>
     <a class="botonfinalizar" href="index.html">Finalizar</a>
 </footer>
 </html>

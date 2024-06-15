@@ -73,6 +73,7 @@ section {
     display: inline-block;
     text-decoration: none;
 }
+
 #Colorindex:hover {
     cursor: pointer;
     background-color: white;
@@ -175,3 +176,4 @@ section {
 .textocorreo {
     font-size: 25px;
 }
+

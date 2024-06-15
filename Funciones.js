@@ -43,9 +43,40 @@ function onloadFinal() {
         valor_llantas = 1600;
     }
     valor_auto = valor_llantas + valor_color;
-    document.getElementById("preciototal").innerText = "El precio total del auto es de $" + valor_auto;
     document.getElementById("preciocolor").innerText = "El precio del color es $" + valor_color;
     document.getElementById("preciollanta").innerText = "El precio de la llanta es $" + valor_llantas;
+    graficoCanvas(valor_auto);
+
+}
+
+/**
+ * Realiza una animación del precio total del auto en un canvas.
+ * @method graficoCanvas
+ * @param {number} preciototaldelauto - El precio total del auto que se desea mostrar animado.
+ * @return {void} - No retorna ningún valor.
+ */
+function graficoCanvas(preciototaldelauto) {
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var precio = 0;
+    var increment = preciototaldelauto / 100;
+
+    function precioAnimado() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.font = "30px Arial";
+        ctx.fillStyle = "white";
+        ctx.fillText("Precio total del auto: $" + precio.toFixed(2), 50, 100);
+
+
+        if (precio < preciototaldelauto) {
+            precio += increment;
+            requestAnimationFrame(precioAnimado);
+        } else {
+            ctx.fillText("Precio total del auto: $" + preciototaldelauto.toFixed(2), 50, 100);
+        }
+    }
+
+    precioAnimado();
 }
 
 /**
@@ -60,6 +91,7 @@ function setearLlanta(llantaElegida) {
     window.location.href = 'index.html?llanta=' + llantaElegida + '&color=' + colorElegido;
 
 }
+
 /**
  * Configura el valor del color elegido y redirige a la página principal con los valores elegidos.
  * @method setearColor
@@ -71,6 +103,7 @@ function setearColor(colorElegido) {
     let llantaElegida = document.getElementById("ValorLlanta").value;
     window.location.href = 'index.html?color=' + colorElegido + '&llanta=' + llantaElegida;
 }
+
 /**
  * Carga los valores de color y llanta desde los parámetros de la URL al cargar la página.
  * @method onloadInicio
@@ -84,6 +117,7 @@ function onloadInicio() {
     document.getElementById("ValorLlanta").value = llanta;
     document.getElementById("ValorColor").value = color;
 }
+
 /**
  * Carga los valores de color y llanta desde los parámetros de la URL al cargar la página de llantas.
  * @method onloadLlantas
@@ -97,6 +131,7 @@ function onloadLlantas() {
     document.getElementById("ValorColor").value = color;
     document.getElementById("ValorLlanta").value = llanta;
 }
+
 /**
  * Carga los valores de color y llanta desde los parámetros de la URL al cargar la página de colores.
  * @method onloadColor
@@ -110,6 +145,7 @@ function onloadColor() {
     document.getElementById("ValorColor").value = color;
     document.getElementById("ValorLlanta").value = llanta;
 }
+
 /**
  * Redirige a la página de selección de color con los parámetros actuales de llanta y color previamente seleccionados o ningun valor si no se seleccionó.
  * @method llamarColor
