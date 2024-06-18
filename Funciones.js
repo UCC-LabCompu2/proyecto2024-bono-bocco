@@ -126,7 +126,7 @@ const validarCorreo = () => {
         alert("Por favor, ingrese su correo electrónico.");
         return false;
     } else if (!correo.includes("@")) {
-        alert("Ingrese un correo electronico v'á'lido");
+        alert("Ingrese un correo electronico valido");
         return false;
     }
     return true;
