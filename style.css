@@ -176,4 +176,9 @@ section {
 .textocorreo {
     font-size: 25px;
 }
-
+#ValorColor{
+    visibility:hidden;
+}
+#ValorLlanta{
+    visibility:hidden;
+}
