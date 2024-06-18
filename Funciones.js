@@ -1,10 +1,9 @@
 /**
  * Actualiza las imágenes del auto y las llantas según lo seleccionado en LLANTAS.html y COLOR.html, además calcula y modifica el precio total del auto.
  * @method onloadFinal
- * @param {string} N/A - Esta función no recibe parámetros.
- * @return {void} - No retorna ningún valor.
- */
-function onloadFinal() {
+ * */
+//function onloadFinal() {
+const onloadFinal = () => {
     let valor_auto;
     let valor_llantas = 1000;
     let valor_color = 25000;
@@ -14,31 +13,25 @@ function onloadFinal() {
 
     if (color === '1') {
         document.getElementById("autofinal").src = "imagenes/autoblancoprecio.jpg";
-    }
-    if (color === '2') {
+    } else if (color === '2') {
         document.getElementById("autofinal").src = "imagenes/autonegro.png";
         valor_color = 26000;
-    }
-    if (color === '3') {
+    } else if (color === '3') {
         document.getElementById("autofinal").src = "imagenes/autorojo.jpg";
         valor_color = 27000;
-    }
-    if (color === '4') {
+    } else if (color === '4') {
         document.getElementById("autofinal").src = "imagenes/autoazul.jpg";
         valor_color = 28000;
     }
     if (llanta === '1') {
         document.getElementById("llantafinal").src = 'imagenes/llantas1.jpg';
-    }
-    if (llanta === '2') {
+    } else if (llanta === '2') {
         document.getElementById("llantafinal").src = 'imagenes/llantas2.jpg';
         valor_llantas = 1200;
-    }
-    if (llanta === '3') {
+    } else if (llanta === '3') {
         document.getElementById("llantafinal").src = 'imagenes/Llantas3.jpg';
         valor_llantas = 1400;
-    }
-    if (llanta === '4') {
+    } else if (llanta === '4') {
         document.getElementById("llantafinal").src = 'imagenes/Llantas4.jpg';
         valor_llantas = 1600;
     }
@@ -53,7 +46,6 @@ function onloadFinal() {
  * Realiza una animación del precio total del auto en un canvas.
  * @method graficoCanvas
  * @param {number} preciototaldelauto - El precio total del auto que se desea mostrar animado.
- * @return {void} - No retorna ningún valor.
  */
 const graficoCanvas = (preciototaldelauto) => {
     const canvas = document.getElementById("myCanvas");
@@ -84,7 +76,7 @@ const graficoCanvas = (preciototaldelauto) => {
  * @method setearLlanta
  * @param {string} llantaElegida - Numero de llanta elegida por el usuario.
  */
-function setearLlanta(llantaElegida) {
+const setearLlanta = (llantaElegida) => {
     document.getElementById("ValorLlanta").value = llantaElegida;
     let colorElegido = document.getElementById("ValorColor").value;
     window.location.href = 'index.html?llanta=' + llantaElegida + '&color=' + colorElegido;
@@ -96,7 +88,7 @@ function setearLlanta(llantaElegida) {
  * @method setearColor
  * @param {string} colorElegido - Numero del color de auto elegido por el usuario.
  */
-function setearColor(colorElegido) {
+const setearColor = (colorElegido) => {
     document.getElementById("ValorColor").value = colorElegido;
     let llantaElegida = document.getElementById("ValorLlanta").value;
     window.location.href = 'index.html?color=' + colorElegido + '&llanta=' + llantaElegida;
@@ -115,66 +107,14 @@ const onloadInicio = () => {
 }
 
 /**
- * Carga los valores de color y llanta desde los parámetros de la URL al cargar la página de llantas.
- * @method onloadLlantas
- * @param {string} N/A - Esta función no recibe parámetros.
- * @return {void} - No retorna ningún valor.
- */
-function onloadLlantas() {
-    let url = new URL(window.location.href);
-    let color = url.searchParams.get("color");
-    let llanta = url.searchParams.get("llanta");
-    document.getElementById("ValorColor").value = color;
-    document.getElementById("ValorLlanta").value = llanta;
-}
-
-/**
- * Carga los valores de color y llanta desde los parámetros de la URL al cargar la página de colores.
- * @method onloadColor
- * @param {string} N/A - Esta función no recibe parámetros.
- * @return {void} - No retorna ningún valor.
- */
-function onloadColor() {
-    let url = new URL(window.location.href);
-    let color = url.searchParams.get("color");
-    let llanta = url.searchParams.get("llanta");
-    document.getElementById("ValorColor").value = color;
-    document.getElementById("ValorLlanta").value = llanta;
-}
-
-/**
- * Redirige a la página de selección de color con los parámetros actuales de llanta y color previamente seleccionados o ningun valor si no se seleccionó.
- * @method llamarColor
- * @param {string} N/A - Esta función no recibe parámetros.
- * @return {void} - No retorna ningún valor.
- */
-function llamarColor() {
-    let llantaElegida = document.getElementById("ValorLlanta").value;
-    let colorElegido = document.getElementById("ValorColor").value;
-    window.location.href = 'COLOR.html?llanta=' + llantaElegida + '&color=' + colorElegido;
-}
-
-/**
- * Redirige a la página de selección de llanta con los parámetros actuales de color y llanta previamente seleccionados o ningun valor si no se seleccionó.
- * @method llamarLlanta
- * @param {string} N/A - Esta función no recibe parámetros.
- * @return {void} - No retorna ningún valor.
- */
-function llamarLlanta() {
-    let llantaElegida = document.getElementById("ValorLlanta").value;
-    let colorElegido = document.getElementById("ValorColor").value;
-    window.location.href = 'LLANTAS.html?llanta=' + llantaElegida + '&color=' + colorElegido;
-}
-
-/**
  * Redirige a la página deseada con los parámetros actuales de llanta y color.
  * @method llamarParametros
  * @param {string} newHtml -  Esta función recibe un parametro, de a que pagina te dirige el boton pulsado.
  */
-function llamarFinal() {
-    var llantaElegida = document.getElementById("ValorLlanta").value;
-    var colorElegido = document.getElementById("ValorColor").value;
-    window.location.href = 'FIN.html?llanta=' + llantaElegida + '&color=' + colorElegido;
+const llamarParametros = (newHtml) => {
+    const llantaElegida = document.getElementById("ValorLlanta").value;
+    const colorElegido = document.getElementById("ValorColor").value;
+    window.location.href = newHtml + '.html?llanta=' + llantaElegida + '&color=' + colorElegido;
 }
 /**
  * Verifica que el usuario ponga un mail y como el mail debe tener '@' verifica que ese caracter este en el texto
