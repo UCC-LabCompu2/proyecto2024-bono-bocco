@@ -8,9 +8,9 @@ function onloadFinal() {
     let valor_auto;
     let valor_llantas = 1000;
     let valor_color = 25000;
-    let url = new URL(window.location.href);
-    let color = url.searchParams.get("color");
-    let llanta = url.searchParams.get("llanta");
+    const url = new URL(window.location.href);
+    const color = url.searchParams.get("color");
+    const llanta = url.searchParams.get("llanta");
 
     if (color === '1') {
         document.getElementById("autofinal").src = "imagenes/autoblancoprecio.jpg";
@@ -55,13 +55,13 @@ function onloadFinal() {
  * @param {number} preciototaldelauto - El precio total del auto que se desea mostrar animado.
  * @return {void} - No retorna ningún valor.
  */
-function graficoCanvas(preciototaldelauto) {
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
-    var precio = 0;
-    var increment = preciototaldelauto / 100;
+const graficoCanvas = (preciototaldelauto) => {
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+    let precio = 0;
+    let increment = preciototaldelauto / 100;
 
-    function precioAnimado() {
+    const precioAnimado = () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.font = "30px Arial";
         ctx.fillStyle = "white";
@@ -83,7 +83,6 @@ function graficoCanvas(preciototaldelauto) {
  * Configura el valor de la llanta elegida y redirige a la página principal con los valores elegidos.
  * @method setearLlanta
  * @param {string} llantaElegida - Numero de llanta elegida por el usuario.
- * @return {void} - No retorna ningún valor.
  */
 function setearLlanta(llantaElegida) {
     document.getElementById("ValorLlanta").value = llantaElegida;
@@ -96,7 +95,6 @@ function setearLlanta(llantaElegida) {
  * Configura el valor del color elegido y redirige a la página principal con los valores elegidos.
  * @method setearColor
  * @param {string} colorElegido - Numero del color de auto elegido por el usuario.
- * @return {void} - No retorna ningún valor.
  */
 function setearColor(colorElegido) {
     document.getElementById("ValorColor").value = colorElegido;
@@ -107,13 +105,11 @@ function setearColor(colorElegido) {
 /**
  * Carga los valores de color y llanta desde los parámetros de la URL al cargar la página.
  * @method onloadInicio
- * @param {string} N/A - Esta función no recibe parámetros.
- * @return {void} - No retorna ningún valor.
  */
-function onloadInicio() {
-    let url = new URL(window.location.href);
-    let color = url.searchParams.get("color");
-    let llanta = url.searchParams.get("llanta");
+const onloadInicio = () => {
+    const url = new URL(window.location.href);
+    const color = url.searchParams.get("color");
+    const llanta = url.searchParams.get("llanta");
     document.getElementById("ValorLlanta").value = llanta;
     document.getElementById("ValorColor").value = color;
 }
@@ -171,14 +167,27 @@ function llamarLlanta() {
 }
 
 /**
- * Redirige a la página final con los parámetros actuales de llanta y color.
- * @method llamarFinal
- * @param {string} N/A - Esta función no recibe parámetros.
- * @return {void} - No retorna ningún valor.
+ * Redirige a la página deseada con los parámetros actuales de llanta y color.
+ * @method llamarParametros
+ * @param {string} newHtml -  Esta función recibe un parametro, de a que pagina te dirige el boton pulsado.
  */
 function llamarFinal() {
     var llantaElegida = document.getElementById("ValorLlanta").value;
     var colorElegido = document.getElementById("ValorColor").value;
     window.location.href = 'FIN.html?llanta=' + llantaElegida + '&color=' + colorElegido;
 }
-
+/**
+ * Verifica que el usuario ponga un mail y como el mail debe tener '@' verifica que ese caracter este en el texto
+ * @method validarCorreo
+ */
+const validarCorreo = () => {
+    const correo = document.getElementById("agregatucorreo").value;
+    if (correo === "") {
+        alert("Por favor, ingrese su correo electrónico.");
+        return false;
+    } else if (!correo.includes("@")) {
+        alert("Ingrese un correo electronico v'á'lido");
+        return false;
+    }
+    return true;
+}
