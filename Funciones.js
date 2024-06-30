@@ -78,7 +78,7 @@ const graficoCanvas = (preciototaldelauto) => {
  */
 const setearLlanta = (llantaElegida) => {
     document.getElementById("ValorLlanta").value = llantaElegida;
-    let colorElegido = document.getElementById("ValorColor").value;
+    const colorElegido = document.getElementById("ValorColor").value;
     window.location.href = 'index.html?llanta=' + llantaElegida + '&color=' + colorElegido;
 
 }
@@ -90,7 +90,7 @@ const setearLlanta = (llantaElegida) => {
  */
 const setearColor = (colorElegido) => {
     document.getElementById("ValorColor").value = colorElegido;
-    let llantaElegida = document.getElementById("ValorLlanta").value;
+    const llantaElegida = document.getElementById("ValorLlanta").value;
     window.location.href = 'index.html?color=' + colorElegido + '&llanta=' + llantaElegida;
 }
 
@@ -127,7 +127,10 @@ const validarCorreo = () => {
         return false;
     } else if (!correo.includes("@")) {
         alert("Ingrese un correo electronico valido");
+        document.getElementById("agregatucorreo").value = "";
         return false;
+    } else{
+        alert ("Recibirá un mail con la informacion de su auto")
+        return true;
     }
-    return true;
 }
